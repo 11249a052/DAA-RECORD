@@ -17,7 +17,8 @@ int bfs(int s, int t) {
     return color[t] == 2;
 }
 
-int fordFulkerson(int s, int t) {
+int fordFulkerson(int s, int t) 
+{
     int maxFlow = 0;
     while (bfs(s, t)) {
         int inc = INF;
