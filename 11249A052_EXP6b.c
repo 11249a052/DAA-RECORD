@@ -45,3 +45,4 @@ int main() {
     bellmanFord(0);
     return 0;
 }
+#THE END
